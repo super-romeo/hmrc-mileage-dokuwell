@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For employees and sole traders who drive for work: each business journey recorded and the claim worked out at HMRC approved mileage rates.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -65,38 +69,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">MileLog UK</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">MileLog UK</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>A business mileage log for your own car — claim worked out at the HMRC rates</h1>
-    <p class="sub">For people who drive their own car for work: log each business journey, see business and personal miles apart, and get a monthly claim at 55p a mile for the first 10,000 business miles and 25p after that, ready for your employer or your tax return.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For people who drive their own car</p>
+      <h1 class="rise" style="--i:1" data-len="long">A business mileage log for your own car&nbsp;<span class="soft">— claim worked out at the HMRC rates</span></h1>
+      <p class="rise" style="--i:2">For people who drive their own car for work: log each business journey, see business and personal miles apart, and get a monthly claim at 55p a mile for the first 10,000 business miles and 25p after that, ready for your employer or your tax return.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="120" y="158" font-size="36" fill="#0a1524" font-weight="600">MileLog UK</text><line x1="120" y1="204" x2="1080" y2="204" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="246" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="188" y="280" font-size="30" fill="#0a1524">Journey log</text><rect x="120" y="358" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="188" y="392" font-size="30" fill="#0a1524">HMRC rates</text><rect x="120" y="470" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="188" y="504" font-size="30" fill="#0a1524">Monthly claim</text><rect x="730" y="250" width="340" height="410" fill="#dfe8f7" rx="20" /><text x="760" y="318" font-size="32" fill="#0a1524" font-weight="600">Tax year</text><rect x="770" y="450" width="46" height="150" fill="#ffffff" rx="8" /><rect x="840" y="500" width="46" height="100" fill="#ffffff" rx="8" /><rect x="910" y="390" width="46" height="210" fill="#12397a" rx="8" /><rect x="980" y="520" width="46" height="80" fill="#ffffff" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>People who drive</dd></div>
+      <div><dt>Does</dt><dd>Business mileage log</dd></div>
+      <div><dt>Rates</dt><dd>At the HMRC rates</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Journey log</b><span>Date, purpose, start, destination and miles.</span><br><a class="btn" href="price.html" data-ev="feature_log">I need this</a></div>
-      <div class="card"><b>HMRC rates</b><span>55p up to 10,000 miles, then 25p.</span><br><a class="btn" href="price.html" data-ev="feature_rates">I need this</a></div>
-      <div class="card"><b>Monthly claim</b><span>A claim sheet for your employer.</span><br><a class="btn" href="price.html" data-ev="feature_claim">I need this</a></div>
-      <div class="card"><b>Tax year total</b><span>Business miles and amount for the year.</span><br><a class="btn" href="price.html" data-ev="feature_year">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Journey log</text><rect x="110" y="196" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,218 128,228 144,208" fill="none" stroke="#12397a" stroke-width="4" /><text x="174" y="228" font-size="30" fill="#0a1524">destination</text><rect x="110" y="272" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,294 128,304 144,284" fill="none" stroke="#12397a" stroke-width="4" /><rect x="174" y="284" width="320" height="18" fill="#dde2ea" rx="8" /><rect x="110" y="348" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,370 128,380 144,360" fill="none" stroke="#12397a" stroke-width="4" /><rect x="174" y="360" width="250" height="18" fill="#dde2ea" rx="8" /><rect x="110" y="424" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="174" y="436" width="320" height="18" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Journey log</h3><p>Date, purpose, start, destination and miles.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_log">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">HMRC rates</text><text x="110" y="192" font-size="28" fill="#566174">55p a mile</text><line x1="140" y1="470" x2="640" y2="470" stroke="#b9c3d2" stroke-width="3" /><rect x="160" y="360" width="64" height="110" fill="#dfe8f7" rx="8" /><rect x="280" y="300" width="64" height="170" fill="#dfe8f7" rx="8" /><rect x="400" y="384" width="64" height="86" fill="#dfe8f7" rx="8" /><rect x="520" y="270" width="64" height="200" fill="#12397a" rx="8" /></svg></div>
+        <h3>HMRC rates</h3><p>55p up to 10,000 miles, then 25p.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_rates">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Monthly claim</text><text x="110" y="196" font-size="28" fill="#566174">claim sheet</text><circle cx="640" cy="128" r="34" fill="#dfe8f7" /><polyline points="624,128 634,142 656,112" fill="none" stroke="#12397a" stroke-width="4" /><rect x="110" y="250" width="400" height="22" fill="#dde2ea" rx="8" /><rect x="110" y="308" width="280" height="22" fill="#b9c3d2" rx="8" /><rect x="110" y="366" width="340" height="22" fill="#dde2ea" rx="8" /><rect x="110" y="424" width="220" height="22" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Monthly claim</h3><p>A claim sheet for your employer.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_claim">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="138" font-size="32" fill="#0a1524" font-weight="600">Tax year total</text><rect x="110" y="186" width="560" height="76" fill="#dfe8f7" rx="28" stroke="#dde2ea" stroke-width="3" /><circle cx="156" cy="224" r="14" fill="#12397a" /><text x="188" y="234" font-size="30" fill="#0a1524">Business miles</text><rect x="110" y="290" width="560" height="76" fill="#ffffff" rx="28" stroke="#dde2ea" stroke-width="3" /><circle cx="156" cy="328" r="14" fill="#b9c3d2" /><text x="188" y="338" font-size="30" fill="#0a1524">the year</text></svg></div>
+        <h3>Tax year total</h3><p>Business miles and amount for the year.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_year">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A care coordinator in Leeds drives her own car between clients three days a week. She used to rebuild her journeys from her calendar at the end of the month. Now each trip is logged with its purpose and miles, the claim at 55p a mile is ready on the first of the month, and she can see how close she is to 10,000 business miles for the tax year.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">See the offer</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A care coordinator in Leeds drives her own car between clients three days a week. She used to rebuild her journeys from her calendar at the end of the month. Now each trip is logged with its purpose and miles, the claim at 55p a mile is ready on the first of the month, and she can see how close she is to 10,000 business miles for the tax year.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">See the offer</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="180" y1="150" x2="1020" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><rect x="90" y="180" width="300" height="60" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><text x="240" y="218" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">Leeds</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><rect x="450" y="180" width="300" height="60" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><text x="600" y="218" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">55p a mile</text><circle cx="960" cy="150" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><rect x="810" y="180" width="300" height="60" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><text x="960" y="218" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">tax year</text><rect x="120" y="290" width="960" height="430" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="370" font-size="36" fill="#0a1524" font-weight="600">Monthly claim</text><text x="170" y="440" font-size="30" fill="#566174">claim sheet</text><rect x="170" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="270" y="510" width="64" height="64" fill="#12397a" rx="10" /><rect x="370" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="470" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /><rect x="570" y="510" width="64" height="64" fill="#12397a" rx="10" /><rect x="670" y="510" width="64" height="64" fill="#dfe8f7" rx="10" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>If you use your own car for business journeys, HMRC sets approved mileage rates: from tax year 2026 to 2027, 55p a mile for cars and vans for the first 10,000 business miles and 25p for each mile after that. Before 6 April 2026 the first rate was 45p.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>If you use your own car for business journeys, HMRC sets approved mileage rates: from tax year 2026 to 2027, 55p a mile for cars and vans for the first 10,000 business miles and 25p for each mile after that. Before 6 April 2026 the first rate was 45p.</p>
     <p>To claim, you need a record of each business journey. Many people rebuild it from memory or a calendar at the end of the month. Answers to common questions are in the <a href="#faq" data-ev="click_opis_faq">questions section</a>, and you can start <a href="#start" data-ev="click_opis_start">at the bottom of the page</a>.</p>
     <p>MileLog UK does one narrow job: it keeps your business mileage log and works out the claim at the HMRC rates.</p>
     <p>Each journey is recorded with its date, purpose, start, destination and miles, and personal miles are kept apart from business miles.</p>
@@ -110,29 +144,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>All monthly sheets and the full journey log stay available by tax year, so the record is there if your employer or HMRC asks for it later.</p>
     <p>To start, you only need your car and your next business journey; past journeys from this tax year can be added from your own notes.</p>
     <p>MileLog UK keeps the log and works out the amounts; your claim and your tax return stay your responsibility.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Which rates does it use?</h3>
-    <p>The HMRC approved mileage rates for 2026 to 2027: 55p a mile for the first 10,000 business miles and 25p after that.</p>
-    <h3>Who is it for?</h3>
-    <p>Employees who drive their own car for work and sole traders who use the mileage rates.</p>
-    <h3>Does it send anything to HMRC?</h3>
-    <p>No. It keeps the log and prepares the claim; you send it to your employer or use it for your tax return.</p>
-    <h3>Can I use it now?</h3>
-    <p>Not yet. The service is being prepared, and we are checking whether drivers in the UK need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Which rates does it use?</h3><p>The HMRC approved mileage rates for 2026 to 2027: 55p a mile for the first 10,000 business miles and 25p after that.</p></div>
+      <div class="split flip"><h3>Who is it for?</h3><p>Employees who drive their own car for work and sole traders who use the mileage rates.</p></div>
+      <div class="split flip"><h3>Does it send anything to HMRC?</h3><p>No. It keeps the log and prepares the claim; you send it to your employer or use it for your tax return.</p></div>
+      <div class="split flip"><h3>Can I use it now?</h3><p>Not yet. The service is being prepared, and we are checking whether drivers in the UK need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Get started</h2>
-    <p><label>How many business miles a year<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Under 3,000</option><option>3,000–10,000</option><option>Over 10,000</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Get started</h2>
+    </div>
+    <div class="tile stack">
+      <label>How many business miles a year<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Under 3,000</option><option>3,000–10,000</option><option>Over 10,000</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>MileLog UK</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">MileLog UK keeps the mileage log and works out the amounts at the HMRC approved rates; the claim and the tax return stay with the driver.</p>
+  <p>MileLog UK keeps the mileage log and works out the amounts at the HMRC approved rates; the claim and the tax return stay with the driver.</p>
 </div></footer>
 
 </body>
